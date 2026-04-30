@@ -18,10 +18,10 @@ jobs:
         uses: actions/checkout@v4
 
       # Java 17 환경을 설치합니다
-      - name: Java 17 설정
+      - name: Java 21 설정
         uses: actions/setup-java@v4
         with:
-          java-version: 17
+          java-version: 21
           distribution: temurin
 
       # Maven으로 빌드 및 테스트 실행
